@@ -47,6 +47,7 @@
 		799DA6551F814C5C00B202B6 /* BillsStateLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BillsStateLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		799DA6591F814C5C00B202B6 /* BillsStateLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsStateLabUITests.swift; sourceTree = "<group>"; };
 		799DA65B1F814C5C00B202B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		799DA66B1F8180BB00B202B6 /* smiley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smiley.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 			children = (
 				799DA6391F814C5C00B202B6 /* AppDelegate.swift */,
 				799DA63B1F814C5C00B202B6 /* ViewController.swift */,
+				799DA66B1F8180BB00B202B6 /* smiley.png */,
 				799DA63D1F814C5C00B202B6 /* Main.storyboard */,
 				799DA6401F814C5C00B202B6 /* Assets.xcassets */,
 				799DA6421F814C5C00B202B6 /* LaunchScreen.storyboard */,
@@ -363,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -429,6 +431,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JD548BN3B;
 				INFOPLIST_FILE = BillsStateLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.WebBuildersConsulting.BillsStateLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JD548BN3B;
 				INFOPLIST_FILE = BillsStateLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.WebBuildersConsulting.BillsStateLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
